@@ -1,0 +1,112 @@
+// Asset Map (Read-Only)
+// Edit assets in the Media tab.
+// Use these IDs alongside lib to reference assets in your code:
+//
+// Example: lib.getAsset["player_sprite"]
+
+const assets = {
+  "player_warrior_idle": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/player_warrior_idle_534d0b10-aa46-4e1e-b151-d1deba4eed33.webp",
+    "type": "image",
+    "aspect_ratio": [
+      955,
+      1372
+    ]
+  },
+  "player_warrior_moving": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/player_warrior_moving_47dafc1c-8819-4197-b332-001e99911763.webp",
+    "type": "image",
+    "aspect_ratio": [
+      782,
+      689
+    ]
+  },
+  "enemy_demon_basic": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/enemy_demon_basic_c8b2367f-01bd-45a2-b3ed-cfc347c447d7.webp",
+    "type": "image",
+    "aspect_ratio": [
+      891,
+      1419
+    ]
+  },
+  "boss_demon": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/boss_demon_af8465a7-face-400c-a713-db4dc7253952.webp",
+    "type": "image",
+    "aspect_ratio": [
+      972,
+      1019
+    ]
+  },
+  "knowledge_sphere": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/knowledge_sphere_816769e2-3534-483c-9759-cfe2d9607f3e.webp",
+    "type": "image",
+    "aspect_ratio": [
+      1018,
+      1280
+    ]
+  },
+  "sword_slash_effect": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/sword_slash_effect_880f6a52-442d-4a30-bd35-cc0d8530d148.webp",
+    "type": "image",
+    "aspect_ratio": [
+      1094,
+      851
+    ]
+  },
+  "quiz_parchment_background": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/quiz_parchment_background_a87609be-715f-4e0d-a1d7-194af4cf761c.webp",
+    "type": "image",
+    "aspect_ratio": [
+      1336,
+      891
+    ]
+  },
+  "ui_border_frame": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/ui_border_frame_242aae52-2bc3-420b-bc25-c477d2b62433.webp",
+    "type": "image",
+    "aspect_ratio": [
+      824,
+      1530
+    ]
+  },
+  "background_music": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/sounds/effect/background_music_c03fafee-0d91-4a22-b457-b02d14b4a35a.mp3",
+    "type": "audio"
+  },
+  "sword_clash_sfx": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/sounds/effect/sword_clash_sfx_16d01eed-6994-47c1-a2af-e854f672c1dc.mp3",
+    "type": "audio"
+  },
+  "enemy_hit_sfx": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/sounds/effect/enemy_hit_sfx_efe5910a-9f15-4cf9-810d-2988ba9d4a84.mp3",
+    "type": "audio"
+  },
+  "player_hit_sfx": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/sounds/effect/player_hit_sfx_8dba3ed7-91cc-4123-aefc-d568088e0672.mp3",
+    "type": "audio"
+  },
+  "knowledge_collect_sfx": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/sounds/effect/knowledge_collect_sfx_2aba5e93-0f37-4e14-b769-5cd946bda243.mp3",
+    "type": "audio"
+  },
+  "quiz_correct_sfx": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/sounds/effect/quiz_correct_sfx_b4a88852-c0c3-4e68-9e58-1d1c5ecee299.mp3",
+    "type": "audio"
+  },
+  "quiz_incorrect_sfx": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/sounds/effect/quiz_incorrect_sfx_834b4679-9220-4346-9acd-63a2a26e2b42.mp3",
+    "type": "audio"
+  },
+  "boss_music": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/sounds/effect/boss_music_1f9effa7-b55a-4e4d-a7f9-474a6035054e.mp3",
+    "type": "audio"
+  },
+  "victory_fanfare": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/sounds/effect/victory_fanfare_8c76cabc-ef67-4804-859a-a8de0a45fc98.mp3",
+    "type": "audio"
+  },
+  "death_sfx": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/sounds/effect/death_sfx_74ad2d4f-3149-467d-ada8-68e02dea573f.mp3",
+    "type": "audio"
+  }
+};
