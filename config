@@ -1,0 +1,114 @@
+{
+  "player": {
+    "maxHealth": 12,
+    "speedMultiplier": 1,
+    "attackDamage": 4,
+    "attackCooldown": 0.3,
+    "attackRange": 100
+  },
+  "enemy": {
+    "baseHealth": 10,
+    "baseSpeed": 1,
+    "spawnRate": 3,
+    "difficultyScaling": 1
+  },
+  "boss": {
+    "health": 200,
+    "damage": 5,
+    "speed": 0.8,
+    "timeUntilBoss": 120
+  },
+  "knowledgeBoost": {
+    "spawnFrequency": 20,
+    "buffDuration": 15,
+    "damageBuffMultiplier": 1.5,
+    "speedBuffMultiplier": 1.3,
+    "attackSpeedBuffMultiplier": 1.5
+  },
+  "audio": {
+    "musicVolume": 70,
+    "sfxVolume": 80
+  },
+  "quizQuestions": [
+    {
+      "question": "\"Anāhita ____ asti\" (Anahita is beautiful)",
+      "answers": [
+        "srira",
+        "daēwa",
+        "yazata"
+      ],
+      "correctIndex": 0,
+      "buffType": "damage"
+    },
+    {
+      "question": "\"yužəm ____ stā dušxšathra\" (You demons are evil rulers)",
+      "answers": [
+        "ahura",
+        "daēwa",
+        "atar"
+      ],
+      "correctIndex": 1,
+      "buffType": "speed"
+    },
+    {
+      "question": "\"tat no daiiata ____ mazištaca vahištaca\" (Grant us the greatest and best deity)",
+      "answers": [
+        "div",
+        "yazata",
+        "druj"
+      ],
+      "correctIndex": 1,
+      "buffType": "attackSpeed"
+    },
+    {
+      "question": "\"____ Mazdā\" (Wise Lord - supreme deity)",
+      "answers": [
+        "Angra",
+        "Ahura",
+        "Daēva"
+      ],
+      "correctIndex": 1,
+      "buffType": "damage"
+    },
+    {
+      "question": "\"asha ____ ushta\" (Truth brings happiness)",
+      "answers": [
+        "druj",
+        "vahišta",
+        "angra"
+      ],
+      "correctIndex": 1,
+      "buffType": "speed"
+    },
+    {
+      "question": "\"haoma ____ duraosha\" (Haoma keeps sickness away)",
+      "answers": [
+        "barəšna",
+        "paiti",
+        "vərəthraghna"
+      ],
+      "correctIndex": 0,
+      "buffType": "attackSpeed"
+    },
+    {
+      "question": "\"Mithra ____ vouru-gaoyaoiti\" (Mithra of wide pastures)",
+      "answers": [
+        "ratu",
+        "yazata",
+        "fravashi"
+      ],
+      "correctIndex": 1,
+      "buffType": "damage"
+    },
+    {
+      "question": "\"____ xšathra\" (Desirable dominion - righteous power)",
+      "answers": [
+        "vohu",
+        "aka",
+        "dush"
+      ],
+      "correctIndex": 0,
+      "buffType": "speed"
+    }
+  ]
+}
